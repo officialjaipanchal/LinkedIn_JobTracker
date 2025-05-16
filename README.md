@@ -25,10 +25,9 @@ Other: NLP, PDF parsing, logging (Winston), cron jobs
 
 This project made me appreciate how backend automation and clean frontend design can come together to solve real problems in job hunting. More updates coming soon — AI job matching and multi-board support on the roadmap! 💡
 
-![Dashboard Preview](<img width="1680" alt="Dashboard" src="https://github.com/user-attachments/assets/892a6bb6-1784-4f9c-8df5-374aaca2a043" />
-)
-![Job List Preview](<img width="1680" alt="Job List" src="https://github.com/user-attachments/assets/efb47297-551d-43a8-8517-bdd377c1a5b6" />
-)
+<img width="1680" alt="Dashboard" src="https://github.com/user-attachments/assets/45078640-9b0b-492a-959c-7b6b0febc146" />
+<img width="1680" alt="Job List" src="https://github.com/user-attachments/assets/5ac73e18-026a-4222-8445-12323d366728" />
+
 
 #FullStack #WebApp #Automation #JobSearch #Puppeteer #MongoDB #ReactJS #NodeJS #ResumeParsing #EmailAlerts #CareerTools
 
