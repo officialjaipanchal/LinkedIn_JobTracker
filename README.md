@@ -1,9 +1,11 @@
-# Job Alert System with Email Notifications
+<img width="1680" alt="Job List" src="https://github.com/user-attachments/assets/92231e90-1a5a-462c-9d83-5535f7d5fb37" /># Job Alert System with Email Notifications
 
 A full-stack web application that helps job seekers track and manage job applications, with automated job fetching from LinkedIn and email notifications for new opportunities.
 
-![Dashboard Preview](docs/images/dashboard.png)
-![Job List Preview](docs/images/job-list.png)
+![Dashboard Preview](<img width="1680" alt="Dashboard" src="https://github.com/user-attachments/assets/892a6bb6-1784-4f9c-8df5-374aaca2a043" />
+)
+![Job List Preview](<img width="1680" alt="Job List" src="https://github.com/user-attachments/assets/efb47297-551d-43a8-8517-bdd377c1a5b6" />
+)
 
 ## Features
 
@@ -41,7 +43,6 @@ A full-stack web application that helps job seekers track and manage job applica
 ### Backend
 - Node.js & Express.js
   - RESTful API architecture
-  - Middleware for authentication and logging
   - Error handling and validation
 - MongoDB with Mongoose
   - Schema validation
@@ -106,7 +107,7 @@ A full-stack web application that helps job seekers track and manage job applica
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/job-alert-system.git
+git clone https://github.com/officialjaipanchal/LinkedIn_JobTracker.git
 cd job-alert-system
 ```
 
@@ -141,13 +142,6 @@ PORT=5050
 NODE_ENV=development
 LOG_LEVEL=info
 
-# LinkedIn Configuration
-LINKEDIN_EMAIL=your_linkedin_email
-LINKEDIN_PASSWORD=your_linkedin_password
-
-# Security
-JWT_SECRET=your_jwt_secret
-JWT_EXPIRATION=24h
 ```
 
 ## Running the Application
@@ -157,9 +151,6 @@ JWT_EXPIRATION=24h
 # Using MongoDB Community Edition
 mongod --dbpath /path/to/data/directory
 
-# Or using Docker
-docker run -d -p 27017:27017 --name mongodb mongo:latest
-```
 
 2. Start the backend server:
 ```bash
@@ -176,12 +167,12 @@ npm start
 The application will be available at:
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:5050
-- MongoDB: mongodb://localhost:27017
+- MongoDB: mongodb://localhost:2701
 
 ## Project Structure
 
 ```
-job-alert-system/
+LinkedIn_JobTracker/
 ├── backend/
 │   ├── config/         # Configuration files
 │   │   ├── database.js # MongoDB configuration
@@ -190,7 +181,6 @@ job-alert-system/
 │   ├── models/         # MongoDB models
 │   │   ├── Job.js      # Job schema
 │   │   ├── Resume.js   # Resume schema
-│   │   └── User.js     # User schema
 │   ├── routes/         # API routes
 │   │   ├── jobRoutes.js    # Job-related endpoints
 │   │   ├── resumeRoutes.js # Resume-related endpoints
@@ -315,13 +305,6 @@ npm install
 npm ls
 ```
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ### Development Guidelines
 
@@ -341,13 +324,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Material-UI for the frontend components
 - React Admin for the admin interface
 - All other open-source libraries used in this project
-
-## Support
-
-For support, please:
-1. Check the [troubleshooting guide](#troubleshooting)
-2. Search [existing issues](https://github.com/yourusername/job-alert-system/issues)
-3. Create a new issue if needed
 
 ## Roadmap
 
